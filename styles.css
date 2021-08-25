@@ -1,0 +1,189 @@
+body {
+  margin-left: 50px;
+  font-family: "Lato", sans-serif;
+  background-color: #f9faff;
+
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  min-height: auto;
+ }
+.column1 {
+  flex: 60%;
+  padding: 10px;
+  padding: 50px 0;
+}
+.column2 {
+  flex: 25%;
+  padding: 10px;
+  padding: 100px 0;
+  margin-left: 5%;
+  margin-right: 10%;
+  text-align: justify;
+  color: #818181;
+}
+hr{
+  width: 25%;
+  margin-left: 0;
+  color: #f90951;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #818181;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a:hover{
+  color: black;
+}
+#hide-mob{
+  font-size: 12px;
+}
+@media screen and (min-width: 701px) {
+.sidebar #display-mob {
+  display: none;
+}
+.sidebar #cart {
+  display: none;
+}
+.sidebar {
+  width: 200px;
+}
+.sidebar #hide-mob {
+  display: block !important;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+#fontsize{
+  font-size: 70px;
+  font-family: 'STIX Two Text', serif;
+}
+.phone{
+  display: none;
+}
+.column3 {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+}
+@media screen and (max-width: 700px) {
+  body{
+    background-color: #fff;
+  }
+.desk{
+  display: none;
+}
+.phone{
+  color: #818181;
+  margin-bottom: 20px;
+}
+.sidebar {
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+}
+.sidebar #hide-mob {
+  display: none;
+}
+.sidebar .button {
+    display: none;
+}
+#head{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+}
+#hide-mob{
+  background-color: #f9faff;
+}
+#head-1{
+  display: none;
+}
+#fontsize{
+  font-size: 30px;
+  font-family: 'STIX Two Text', serif;
+}
+.column3 {
+    float: left;
+    width: 50%;
+    display: block;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+.sidebar a.icon {
+  background: #fff;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#head{
+  text-align: center;
+  font-family: 'STIX Two Text', serif;
+  color: black;
+}
+.button{
+  background-color: #f90951;
+  border-radius: 20px;
+  color: white;
+  padding: 8px 32px;
+  position: absolute;
+  right: 40px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: white;
+  color: #f90951;
+  border-color: #f90951;
+}
+#display-mob a#cart {
+  background: #fff;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.row1 {
+  margin: 0 -5px;
+  width: 100%;
+}
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.container {
+  text-align: center;
+  font-size: 12px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

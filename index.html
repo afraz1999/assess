@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Restaurant</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="sidebar">
+	<a href="#"><h1 id="head">Lorem <span id="head-1">Ipsum</span></h1></a>
+	<div id="hide-mob">
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Cuisine</a>
+  <a href="#">Gallery</a>
+  <a href="#">Contact</a>
+  <a href="#">Book</a>
+  </div>
+  <button class ="button">Cart</button>
+
+  <div id="display-mob">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i style="color: #f90951;" class="far fa-bars"></i>
+  <a href="#" id="cart"><i style="color: #f90951;" class="far fa-shopping-cart"></i></a>
+  </a>
+  </div>
+</div>
+<div class="content">
+  <div class="row">
+    <div class="column1">
+  <h1 id="fontsize">What are you having for Lunch?</h1>
+  </div>
+    <div class="column2 desk">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et.</p>
+  <hr>
+  </div>
+  </div>
+
+  <div class="row1">
+<div class="column3">
+<div class="card">
+  <img src="https://imgk.timesnownews.com/story/chad-montano-lP5MCM6nZ5A-unsplash.jpg?tr=w-600,h-450,fo-auto" class="avatar" >
+  <div class="container">
+    <h4><b>Mexican Taco</b></h4>
+  </div>
+  </div>
+</div>
+<div class="column3">
+<div class="card">
+  <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/sgrs7jxjxnemlw05iq3l" class="avatar">
+  <div class="container">
+    <h4><b>Farmhouse Pizza</b></h4>
+  </div>
+</div>
+</div>
+<div class="column3">
+<div class="card">
+  <img src="https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/90067715_XL1_20210406.jpg?w=1200&q=70" class="avatar">
+  <div class="container">
+    <h4><b>Chicken Burger</b></h4>
+  </div>
+</div>
+</div>
+<div class="column3">
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1568289801407-a1e2b4809aec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80" class="avatar" >
+  <div class="container">
+    <h4><b>Loaded Nachos</b></h4>
+  </div>
+</div>
+</div>
+<div class="column3">
+<div class="card">
+  <img src="https://thecookingjar.com/wp-content/uploads/2014/07/hibachi-noodles-71.jpg" class="avatar">
+  <div class="container">
+    <h4><b>Hakka Noodles</b></h4>
+  </div>
+</div>
+</div>
+</div>
+<div class="phone">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et.</p>
+  <hr>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("hide-mob");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>
